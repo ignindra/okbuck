@@ -141,5 +141,10 @@ class TransformInvocationBuilder {
     public WorkerExecutor getWorkerExecutor() {
       throw new UnsupportedOperationException();
     }
+
+    @Override
+    public String getProjectName() {
+        throw new UnsupportedOperationException();
+    }
   }
 }
